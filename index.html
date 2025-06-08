@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- -------------Header--------------- -->
+    <header id="header">
+        <div class="header-container">
+            <nav>
+                <h1><a href="index.html">HA <span>PORTFOLIO</span></a></h1>
+                <ul class="nav-links" id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+          <!-- -------------Intro--------------- -->
+
+        <div class="intro">
+            <div class="intro-text">
+                <label>
+                    <p>Web Developer || Graphic Designer || Video Editor</p>
+                    <br>
+                    <h1>Hi, I'm <span>Hunzilah Anwar</span><br>From Pakistan.</h1>
+                </label>
+            </div>
+        </div>
+
+        <!-- -------------About--------------- -->
+
+        <div id="about">
+            <div class="about-container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Assets/Image/My Profile Picture.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p>Hi! I’m passionate about creativity and technology. I specialize in video editing, where I
+                            cut and arrange videos to tell interesting stories. I also do graphic design, creating
+                            pictures, logos, and layouts that help people understand ideas quickly. Additionally, I
+                            build websites through web development, making sure they look nice and work smoothly on all
+                            devices.<br><br> I enjoy learning new tools like Adobe Premiere Pro for videos, Canva for
+                            design, and HTML/CSS for websites. My goal is to improve my skills and deliver work that
+                            looks professional and makes an impact. I like working on different projects because each
+                            one helps me grow and brings new challenges. I’m excited to use my creativity and technical
+                            skills to help bring ideas to life.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developement</span><br>Front-End, Back-End, Full Stack Developement and
+                                    Design</li>
+                                <li><span>Graphic Designer</span><br>Design a YouTube Thumbnails, Logos, Poster, Banner
+                                    and Like this as you wish</li>
+                                <li><span>Video Editor</span><br>Expert in Premium Pro, Capcut, WonderShare, Alight
+                                    Motion, After Effect and some other apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2025</span><br>Full Stack Web Developement 3 month experience as a Bigner</li>
+                                <li><span>2025</span><br>Start Graphic Designing with the help of YouTube</li>
+                                <li><span>2018-2025</span><br>Journey of Social Media as long and short videos like
+                                    TikTok, YouTube and Instagram</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Matric</span><br>Matric in Biology From Village School</li>
+                                <li><span>Intermidiate</span><br>Intermidiate in ICs From Yazman</li>
+                                <li><span>BS Artifical Intelligence</span><br>Continue BS Artifical Intelligence in The
+                                    Islamia University of Bahawalpur</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------Servicies--------------- -->
+
+        <div id="services">
+            <label>
+                <div class="services-container">
+                    <h1 class="sub-title">My Servicies</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Designer & Developer</h2>
+                            <p>Video editing involves cutting, arranging, and enhancing video clips with effects, music,
+                                and transitions. It brings stories to life and is essential for content creation across
+                                media platforms.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-pencil"></i>
+                            <h2>Graphic Designer</h2>
+                            <p>Graphic design is the craft of creating visual content using images, text, and colors. It
+                                helps communicate ideas clearly through logos, posters, and digital art.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-video"></i>
+                            <h2>Video Editor</h2>
+                            <p>Web development is the process of building and maintaining websites. It involves coding,
+                                designing layouts, and ensuring websites are functional and user-friendly.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </label>
+        </div>
+
+        <!-- -------------Portfolio-------------- -->
+
+        <div id="portfolio">
+            <div class="portfolio-container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Assets/Image/Web.avif" alt="">
+                        <div class="layer">
+                            <h3>Web Developement</h3>
+                            <p>The Websites give you a more easy and intersting User Graphical Interface for End user.
+                                It is very easy to Access</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Assets/Image/video.avif" alt="">
+                        <div class="layer">
+                            <h3>Video Editing</h3>
+                            <p>Video editing is the process of cutting, combining, and enhancing raw video footage with
+                                effects, transitions, text, and audio. It is used to make storytelling more engaging or
+                                to deliver a message more clearly. Video editors perform tasks such as trimming clips,
+                                adding transitions, inserting background music, and creating subtitles. Popular video
+                                editing software includes Adobe Premiere Pro, Final Cut Pro, and CapCut.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Assets/Image/Graphic.avif" alt="">
+                        <div class="layer">
+                            <h3>Graphic Designing</h3>
+                            <p>Graphic design is the art and practice of creating visual content to communicate
+                                messages. Designers use typography, imagery, color, and layout techniques to craft
+                                visuals for both print and digital media. Whether it’s a logo, poster, website
+                                interface, or social media post, graphic design helps capture attention and convey
+                                information effectively. Tools like Adobe Photoshop, Illustrator, and Canva are commonly
+                                used in the industry. In today’s digital age, graphic design plays a crucial role in
+                                branding, marketing, and user experience.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- -------------Contact-------------- -->
+
+        <div id="contact">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> hunzilahanwar12@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-square-alt"></i> +92 328 7799060</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Assets/Download/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer-section">
+            <div class="copyright">
+                <p>Copyright @ Hunzilah.</p>
+            </div>
+        </section>
+    </footer>
+    <script src="JS/style.js"></script>
+</body>
+
+</html>
