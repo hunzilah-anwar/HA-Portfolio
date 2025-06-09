@@ -1,14 +1,14 @@
 /* ------------Media Querry----------- */
 @media only screen and (max-width: 992px){
     .intro{
-        background-size: 400px 120%;
+        background-size: 1200px 150%;
     }
     .intro-text{
         margin-top: 25%;
         font-size: 25px;
     }
     .intro-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav ul{
         background-color: #ff004f;
@@ -39,21 +39,33 @@
 
 @media only screen and (max-width: 768px){
     .intro{
-        background-size: 300px 100%;
+        background-size: 1000px 150%;
     }
     .intro-text{
         margin-top: 30%;
         font-size: 20px;
     }
+    .intro-text h1{
+        font-size: 30px;
+    }
 }
 
 @media only screen and  (max-width: 600px){
     .intro{
-        background-size: 200px 80%;
+        background-image: url(/Assets/Image/Baground-Logo-Short.jpg) !important;
+        background-size: 400px 100%;
+        background-position: right;
+        padding-left: 10px;
     }
     .intro-text{
         margin-top: 30%;
         font-size: 15px;
+    }
+    .intro-text p{
+        font-size: small;
+    }
+    .intro-text h1{
+        font-size: 20px;
     }
     .about-col-1{
         flex-basis: 45%;
@@ -71,14 +83,93 @@
 
 @media only screen and  (max-width: 425px){
     .intro{
-        background-size: 150px 80%;
-        background-position-y: 45px;
-        padding-left: 20px;
-        height: 80vh;
+        height: 60vh;
+        background-image: url(/Assets/Image/Baground-Logo-Short.jpg) !important;
+        background-size: 400px 180%;
+        background-position: right;
+        background-position-y: 0px;
+        padding-left: 10px;
+    }
+    .intro-text p{
+        font-size: smaller;
+    }
+    .intro-text h1{
+        font-size: 15px;
     }
     .intro-text{
         margin-top: 30%;
         font-size: 12px;
+    }
+    #about{
+        padding: 50px 0px;
+    }
+    .tab-titles>p{
+        margin-right: 10px;
+        font-size: 15px;
+        color: #ff004f;
+    }
+    .tab-titles>p:active{
+        color: white;
+    }
+    .about-col-1{
+        flex-basis: 100%;
+    }
+    .about-col-2{
+        flex-basis: 100%;
+        padding: 0;
+    }
+    .about-col-2 li{
+        font-size: small;
+    }
+    .about-col-2>p{
+        font-size: small;
+    }
+    .work{
+        width: 300px;
+        height: 400px;
+    }
+    .layer{
+        padding: 0px 5px;
+    }
+    .layer p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 25px !important;
+    }
+    .intro-text h1{
+        font-size: 16px !important;
+        margin-left: 0px;
+    }
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
+        flex-basis: 100%;
+    }
+}
+@media only screen and  (max-width: 375px){
+    .intro{
+        height: 60vh;
+        background-image: url(/Assets/Image/Baground-Logo-Short.jpg) !important;
+        background-size: 350px 150%;
+        background-position: right;
+        background-position-y: 0px;
+        padding-left: 5px;
+    }
+    .intro-text p{
+        font-size: xx-small;
+    }
+    .intro-text h1{
+        font-size: 12px;
+    }
+    .intro-text{
+        margin-top: 30%;
+        font-size: 12px;
+    }
+    .work{
+        width: 250px;
+        height: 350px;
     }
     h1{
         font-size: 25px !important;
@@ -88,36 +179,19 @@
         margin-left: 0px;
     }
 }
-
 @media only screen and  (max-width: 320px){
     .intro{
-        background-size: 150px 80%;
-        background-position-y: 45px;
-        padding-left: 10px;
-        height: 80vh;
+        background-size: 250px 120%;
     }
     .intro-text{
-        margin-top: 60%;
+        margin-top: 40%;
         font-size: 12px;
     }
-    h1{
-        font-size: 25px !important;
+    .intro-text p{
+        font-size: 8px;
     }
-    .intro-text h1{
-        font-size: 16px !important;
-        margin-left: 0px;
-    }
-    #about{
-        padding: 50px 0px;
-    }
-    .tab-titles>p{
-        margin-right: 20px;
-        font-size: 15px;
-    }
-    .contact-left{
-        flex-basis: 65%;
-    }
-    .contact-right{
-        flex-basis: 35%;
+    .work{
+        width: 200px;
+        height: 300px;
     }
 }

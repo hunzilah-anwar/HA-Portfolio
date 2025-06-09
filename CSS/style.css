@@ -66,19 +66,22 @@ nav .fa{
     display: flex;
     justify-content: start;
     background-color: black;
-    background-image: url(/Assets/Image/Bg.jpeg) !important;
-    background-size: 500px 120%;
+    background-image: url(/Assets/Image/Baground-Logo.jpg) !important;
+    background-size: 1400px 150%;
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: -10px;
     padding-left: 50px;
 }
 .intro-text{
     margin-top: 15%;
     font-size: 30px;
 }
+.intro-text p{
+    font-size: medium;
+}
 .intro-text h1{
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 50px;
 }
 .intro-text h1 span{
     color: #ff004f;
@@ -218,6 +221,7 @@ nav .fa{
 }
 .work{
     width: 400px;
+    height: 500px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -228,7 +232,7 @@ nav .fa{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
-    height: 500px;
+    height: 100%;
 }
 .layer{
     width: 100%;
