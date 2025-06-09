@@ -1,11 +1,12 @@
 /* ------------Media Querry----------- */
 @media only screen and (max-width: 992px){
     .intro{
-        background-size: 500px 120%;
+        background-size: 400px 120%;
+        right: -50px;
     }
     .intro-text{
-        margin-top: 30%;
-        font-size: 20px;
+        margin-top: 25%;
+        font-size: 25px;
     }
     .intro-text h1{
         font-size: 30px;
@@ -38,24 +39,9 @@
 }
 
 @media only screen and (min-width: 768px){
-    .intro{
-        background-size: 300px 80%;
-    }
-    .intro-text{
-        margin-top: 30%;
-        font-size: 20px;
-    }
-    .intro-text h1{
-        font-size: 25px;
-    }
+
 }
 
 @media only screen and  (max-width: 600px){
-    .intro-text{
-        margin-top: 80%;
-        font-size: 14px;
-    }
-    .intro-text h1{
-        font-size: 20px;
-    }
+
 }
