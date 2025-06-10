@@ -74,7 +74,7 @@ nav .fa{
     padding-left: 50px;
 }
 .intro-text{
-    margin-top: 15%;
+    margin-top: 20%;
     font-size: 30px;
 }
 .intro-text p{
@@ -362,4 +362,16 @@ form .btn2{
     color: white;
     font-size: larger;
     text-align: center;
+}
+.copyright p{
+    display: inline-block;
+    vertical-align: top;
+}
+.copyright p a{
+    color: #ff004f;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.copyright p a:hover{
+    color: #ababab;
 }
