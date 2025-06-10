@@ -364,8 +364,10 @@ form .btn2{
     text-align: center;
 }
 .copyright p{
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .copyright p a{
     color: #ff004f;
