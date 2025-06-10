@@ -362,8 +362,6 @@ form .btn2{
     color: white;
     font-size: larger;
     text-align: center;
-}
-.copyright p{
     display: flex;
     justify-content: center;
     align-items: center;
