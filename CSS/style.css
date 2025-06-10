@@ -70,10 +70,10 @@ nav .fa{
     justify-content: start;
     background-color: black;
     background-image: url("../Assets/Image/Baground-Logo.jpg") !important;
-    background-size: 1400px 150%;
+    background-size: 1800px 200%;
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: -10px;
+    background-position-y: -20px;
     padding-left: 50px;
 }
 .intro-text{

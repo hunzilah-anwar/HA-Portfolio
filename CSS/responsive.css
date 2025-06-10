@@ -40,7 +40,7 @@
 @media only screen and (max-width: 768px){
     .intro{
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 550px 140%;
+        background-size: 800px 140%;
         padding-left: 20px;
     }
     .intro-text{
@@ -56,7 +56,7 @@
     .intro{
         height: 80vh;
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 500px 140%;
+        background-size: 650px 140%;
         background-position: right;
         background-position-y: 0px;
         padding-left: 10px;
@@ -159,7 +159,7 @@
     .intro{
         height: 60vh;
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 400px 200%;
+        background-size: 550px 200%;
         background-position: right;
         background-position-y: 0px;
         padding-left: 5px;
