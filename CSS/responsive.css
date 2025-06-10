@@ -53,7 +53,7 @@
 @media only screen and  (max-width: 600px){
     .intro{
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 400px 100%;
+        background-size: 450px 100%;
         background-position: right;
         padding-left: 10px;
     }
@@ -85,7 +85,7 @@
     .intro{
         height: 60vh;
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 400px 180%;
+        background-size: 450px 180%;
         background-position: right;
         background-position-y: 0px;
         padding-left: 10px;
@@ -152,7 +152,7 @@
     .intro{
         height: 60vh;
         background-image: url("../Assets/Image/Baground-Logo-Short.jpg") !important;
-        background-size: 350px 150%;
+        background-size: 400px 150%;
         background-position: right;
         background-position-y: 0px;
         padding-left: 5px;
@@ -181,7 +181,7 @@
 }
 @media only screen and  (max-width: 320px){
     .intro{
-        background-size: 250px 120%;
+        background-size: 300px 120%;
     }
     .intro-text{
         margin-top: 40%;
