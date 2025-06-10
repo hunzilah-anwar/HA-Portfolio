@@ -4,10 +4,13 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: white black;
+}
 body{
     background: #080808;
     color: #fff;
-    scroll-behavior: smooth;
 }
 #header{
     width: 100%;
@@ -202,14 +205,14 @@ nav .fa{
     transform: translateY(-10px);
 }
 /* ----------Portfolio----------- */
-#portfolio{
+#my-work{
     padding: 50px 0;
 }
-.portfolio-container{
+.my-work-container{
     padding: 10px 20px;
     text-align: center;
 }
-.portfolio-container>h1{
+.my-work-container>h1{
     margin-bottom: 30px;
 }
 .work-list{
