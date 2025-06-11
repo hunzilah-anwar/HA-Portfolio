@@ -25,6 +25,10 @@
         display: block;
         margin: 25px;
     }
+    .work-btn{
+        padding: 10px 30px;
+        font-size: small;
+    }
     nav ul .fa{
         position: absolute;
         top: 25px;
@@ -70,6 +74,10 @@
     }
     .intro-text h1{
         font-size: 20px;
+    }
+    .work-btn{
+        padding: 8px 20px;
+        font-size: x-small;
     }
     .about-col-1{
         flex-basis: 45%;
@@ -195,6 +203,10 @@
         font-size: 12px;
     }
     .intro-text p{
+        font-size: 8px;
+    }
+    .work-btn{
+        padding: 5px 15px;
         font-size: 8px;
     }
     .work{

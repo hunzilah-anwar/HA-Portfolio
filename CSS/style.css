@@ -77,7 +77,7 @@ nav .fa{
     padding-left: 50px;
 }
 .intro-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
 }
 .intro-text p{
@@ -88,6 +88,21 @@ nav .fa{
 }
 .intro-text h1 span{
     color: #ff004f;
+}
+.work-btn{
+    display: block;
+    margin-top: 10px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    font-size: medium;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.work-btn:hover{
+    background-color: #ff004f;
 }
 
 /* -----------About----------- */
@@ -321,6 +336,16 @@ form input, form textarea{
 }
 form textarea{
     resize: none;
+}
+form input:focus{
+    border: 1px solid conic-gradient(red, yellow, green, blue, black);
+    animation: inputMove infinite inherit;
+}
+@keyframes inputMove {
+    
+}
+form textarea:focus{
+    border: 1px solid #ff004f;
 }
 .contact-left p{
     margin-top: 20px;
