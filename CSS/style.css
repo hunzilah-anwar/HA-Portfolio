@@ -15,6 +15,9 @@ body{
 #header{
     width: 100%;
     padding: 10px 20px;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 .header-container{
     padding: 10px 20px;
